@@ -16,14 +16,21 @@ export default function Home() {
     
       </Head>
   {/* <Form/> */}
-  
+  <div>
   <div className="container-index ">
   <iframe src="https://calculatormasa-sembahyang.netlify.app/" name="myiFrame" className='iframe-index '
 frameBorder={0} scrolling="no"
 ></iframe>
-<iframe style={{width: 240, height: 395, border: '1px solid #ddd'}} scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
+<iframe style={{width: 240, height: 395,}} scrolling="no" src="https://www.islamicfinder.org/specialislamicdays"> </iframe>
   </div>
-  
+  <div className="full-calc">
+  <iframe src="https://calcfullpray.web.app/" style={{width: 600, height: 600}} name="calulator" scrolling="no" allowfullscreen ></iframe>
+  </div>
+
+
+  </div>
+ 
+ 
  
  
      {/* <About/> */}

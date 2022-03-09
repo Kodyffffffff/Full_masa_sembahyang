@@ -64,3 +64,8 @@ body{
     
 }
 
+.full-calc{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
